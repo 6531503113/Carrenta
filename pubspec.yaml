@@ -50,20 +50,20 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/icons/1024.png"
+  image_path: "assets/icons/nlogo.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
-    image_path: "path/to/1024.png"
+    image_path: "path/to/nlogo.png"
     background_color: "#hexcode"
     theme_color: "#hexcode"
   windows:
     generate: true
-    image_path: "path/to/1024.png"
+    image_path: "path/to/nlogo.png"
     icon_size: 48 # min:48, max:256, default: 48
   macos:
     generate: true
-    image_path: "path/to/1024.png"
+    image_path: "path/to/nlogo.png"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -85,7 +85,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets\icons\1024.png
+    - assets\icons\nlogo.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

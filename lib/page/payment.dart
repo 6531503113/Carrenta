@@ -66,15 +66,22 @@ class PaymentPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Payment'),
-        actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 16.0),
-            child: Text(userEmail),
-          ),
-        ],
+appBar: AppBar(
+  title: Text(
+    'Payment', // เปลี่ยนเป็นข้อความ "Payment"
+    style: TextStyle(color: Colors.white), // กำหนดสีของตัวหนังสือในแถบด้านบนเป็นสีขาว
+  ),
+  backgroundColor: Colors.blue, // กำหนดสีพื้นหลังของแถบด้านบน
+  actions: [
+    Padding(
+      padding: const EdgeInsets.only(right: 16.0),
+      child: Text(
+        userEmail,
+        style: TextStyle(color: Colors.black), // เปลี่ยนสีของตัวหนังสือในแถบด้านบนเป็นสีขาว
       ),
+    ),
+  ],
+),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

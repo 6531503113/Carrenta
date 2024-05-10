@@ -60,20 +60,11 @@ class _LoginPageState extends State<LoginPage> {
     }
   }
 
-  @override
+ @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              (Color.fromARGB(117, 34, 118, 228)),
-              Color.fromARGB(117, 5, 71, 157)
-            ],
-          ),
-        ),
+        color: Color.fromARGB(248, 9, 2, 72), // กำหนดสีพื้นหลังเป็นสีดำ
         child: Center(
           child: Padding(
             padding: const EdgeInsets.all(32.0),
@@ -81,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Image.asset(
-                  'assets/icons/1024.png',
+                  'assets/icons/nlogo.png',
                   height: 150,
                 ),
                 SizedBox(height: 40.0),
